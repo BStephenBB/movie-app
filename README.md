@@ -4,14 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To run the application
 
-1. Clone the repo: `git clone https://ex`
-2. Install withi npm: `npm install movie-app`
-3. Create a .env file with your movie api key in the root of the src folder: `REACT_APP_MOIVE_API_KEY=<<your key here>>` If you don't have a key, you can get one from [The Movie Database](https://www.themoviedb.org/documentation/api)
-4. Run `npm start` and the app will run on [http://localhost:3000](http://localhost:3000)
+1. Clone the repo: `git clone https://github.com/BStephenBB/movie-app.git`
+2. Install with npm: `npm install movie-app`
+3. Create a .env file with your movie api key in the root of the src folder: `REACT_APP_MOIVE_API_KEY=<<your key here>>` If you don't have a key, you can get one from [The Movie Database](https://www.themoviedb.org/documentation/api).
+4. Run `npm start` and the app will run on [http://localhost:3000](http://localhost:3000).
 
 ## Libraries and Resources used:
 
-- This app was built with [react] and bootstrapped with [create react app].
+- This app was built with [react](https://reactjs.org/) and bootstrapped with [create react app](https://facebook.github.io/create-react-app/).
 - Most of the UI was built with [Material-UI](https://material-ui.com/).
 - [react-router](https://github.com/ReactTraining/react-router) was used for routing.
 
