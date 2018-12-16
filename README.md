@@ -25,9 +25,9 @@ These are some improvements that could be made to the app that were left out due
 - Styling improvements, and more elegent and responsive positioning solutions
 - Better error handling for invalid searches. Also implement the search api call in the same way the rest were made.
 - Have a placeholder image for movies that don't have an image in the database.
-- Although it's a small app, code-splitting could be used to further reduce the bundle size. Names, by using dynamic imports and possibly react-suspense.
+- Although it's a small app, code-splitting could be used to further reduce the bundle size. Namely, by using dynamic imports and possibly react-suspense.
 - Add loading states for images / etc.
-- Possibly use the context-api for better state managemtn and to reduc prop-drilling. Not a huge issue on a small app though.
+- Possibly use the context-api for better state management and to reduce prop-drilling. Not a huge issue on a small app though.
 
 ## Available Scripts
 
