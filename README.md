@@ -4,7 +4,28 @@ To run the application
 
 1. Clone the repo: `git clone https://github.com/BStephenBB/movie-app.git`
 2. Install with npm: `npm install movie-app`
-3. Create a .env file with your movie api key in the root of the src folder: `REACT_APP_MOIVE_API_KEY=<<your key here>>` If you don't have a key, you can get one from [The Movie Database](https://www.themoviedb.org/documentation/api).
+3. Create a .env file with your movie api key in the root of project folder: `REACT_APP_MOIVE_API_KEY=api key here` If you don't have a key, you can get one from [The Movie Database](https://www.themoviedb.org/documentation/api). For example, if your API key is `123456` then the contents of your .env file will be: `REACT_APP_MOIVE_API_KEY=123456`. The file structure of your project should look like this:
+
+```
+movie-app
+├── node_modules
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+│   ├── components (components in this folder)
+│   ├── apiService.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
+
 4. Run `npm start` and the app will run on [http://localhost:3000](http://localhost:3000).
 
 ## Libraries and Resources used:
